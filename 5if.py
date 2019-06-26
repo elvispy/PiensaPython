@@ -44,6 +44,7 @@ Ejemplos de expresiones logicas son
 4 > 2 // va a retornar True
 0 < 4 // va a retornar True
 1 == 3 // va a retornar False
+4 != 5 // va a retornar True (pregunta si son diferentes)
 hay_fuego == hay_empanada_y_pan // va a retornar True
 
 Mucho cuidado! para preguntarle a Python si dos valores son iguales
