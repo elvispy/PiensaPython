@@ -8,6 +8,19 @@ x = 7
 # En python se asignan variables con el operador "="
 # El nombre de la variable siempre debe ir a la izquierda. Si pusiesemos 7=x, 
 # el interprete de python nos daria error
+# tambien podemos asignar mas de una variable en la misma linea
+
+a, b = 4,7
+
+#y asignar una variable en funcion de otra
+
+c = a + b
+#cual es el valor de c?
+#Tambien podemos reasignar una variable en relacion a ella misma
+
+c = 2*c
+x = x-a
+
 
 #-----------------------------------------
 
