@@ -6,11 +6,11 @@ A veces queremos que ciertos comandos se realicen solo bajo
 circunstancias. Para esto sirve la estructura if
 
 if boolean:
-	 -------
+	 --------------
 	|		|
+	| Instrucciones |
 	|		|
-	|		|
-	 -------
+	 ---------------
 
  Si estas en el colegio, y ves que un incendio
 ha empezado, lo primero que debes hacer es alertar a las autoridades
