@@ -40,7 +40,8 @@ z = True
 tengo_hambre = False
 
 # Estos valores corresponden a los estados "encendido" o "apagado", y son 
-# unicamente dos
+# unicamente dos. Veremos que este tipo de datos es importante en ciertas 
+#estructuras
 
 #-----------------------------------------
 
