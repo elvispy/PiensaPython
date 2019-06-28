@@ -68,4 +68,51 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  pares han sido eliminados
  
  Ej: [1, 2, 3, 4, 5, 5, 6, 6] ---->  [1, 3, 5, 5]
+ 
+ -----------------------------------------
+ 
+ Ejercicio 8
+ 
+ Hallar la suma de todos los numeros que son multiplos de 3 o 5 que sean menores a 1000
+ 
+ -----------------------------------------
+ 
+ Ejercicio 9
+ 
+ La secuencia de Fibonacci es una lista de numeros que empieza con un uno, sigue un dos
+ y a partir de ahi, el siguiente numero se obtiene a partir de sumar los ultimos dos numeros
+ de la lista. Por ejemplo la lista inicia con 
+ 
+ 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 ...
+ 
+ Guardar en una lista los primeros 100 numeros de la lista, y sumar aquellos que esten en
+ posiciones pares.
+ 
+ ------------------------------------------
+ 
+ Ejercicio 10
+ 
+ Haga que el usuario ingrese un valor en el Python Shell, con la siguiente linea
+ de codgo:
+ 
+ valor = input("Ingrese un string: ")
+ 
+ Entonces Python guardara lo que el usuario escriba, en una variable llamada "valor"
+ Cree una lista donde se almacenen todos los caracteres usados, en orden alfabetico, 
+ sin repeticion. 
+ 
+ Ejemplo: Si el usuario ingresa "curso de python en piensa", el resultado debe ser
+ [' ', 'a', 'c', 'd', 'e', 'h', 'i', 'n', 'o', 'p', 'r', 's', 't', 'u', 'y']
+ 
+ --------------------------------------------
+ 
+ Ejercicio 11
+ 
+ Dada una lista definida al comienzo del script, imprimir un boolean al usuario
+ True si es que la lista contiene dos terminos iguales consecutivos, 
+ False si no es el caso.
+ 
+ Ejemplo: si la lista fuese [1, 2, 3, 4, 4], debe imprmir True.
+ 
+ ------------------------------------------------
  '''
