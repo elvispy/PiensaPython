@@ -112,7 +112,8 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  True si es que la lista contiene dos terminos iguales consecutivos, 
  False si no es el caso.
  
- Ejemplo: si la lista fuese [1, 2, 3, 4, 4], debe imprmir True.
+ Ejemplo: si la lista fuese [1, 2, 3, 4, 4], debe imprmir True
+ Pero si la lista fuese  [1, 2, 3, 4, 3, 4] debe imprimir False.
  
  ------------------------------------------------
  '''
