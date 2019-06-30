@@ -1,29 +1,38 @@
-''' Aqui estare poniendo algunos ejercicios sobre listas.
+''' Aqui estare poniendo algunos ejercicios sobre listas. 
+INSTRUCCIONES:
+1) Una (C) al lado del ejercicio
+significa que el ejercicio puede hacerse en el Python IDLE, no hace falta crear un script. 
+En caso de no poseer la (C), se recomienda hacer el ejercicio en script.
+2) Siempre que use la palabra "definir" o alguna conjugacion suya, significa que estoy pidiendo
+que el objeto sea guardado en una variable con nombre. Si no te digo como se debe llamar, el nombre queda
+a eleccion tuya. 
+3) Siempre que use la palabra "imprimir"  o "retornar", o alguna de sus conjugaciones, te estoy pidiendo que, mediante la 
+funcion print() le muestres el resultado esperado al usuario.
 -----------------------------------
-Ejercicio 1:
+Ejercicio 1 (C):
 Dada la siguiente lista:
 x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
 
  1)Copie la anterior linea en el Python IDLE.
- 2) Elimine todos los valores no numericos en la lista.
+ 2) Elimine todos los valores no numericos en la lista, mediante funciones.
  3) Ordene la lista de mayor a menor, e imprima el mayor valor
  4) Agregue todos los valores entre 2 y 21 inclusive
  5) Imprima cuantos seis hay en la lista
- 6) Elimine todos excepto un seis, dejandolo en la lista
+ 6) Elimine todos los 6, excepto un seis, dejandolo en la lista
  7) Imprima la lista final
  
  ----------------------------------
- Ejercicio 2:
+ Ejercicio 2(C):
  
  Copie la siguiente linea en el python IDLE:
  
  y = list(range(-270,302,4))
  
- Este es un ejemplo de una lista donde no sabemos cuandos 
+ Esta variable es una lista. Es un ejemplo de una lista donde no sabemos cuandos 
  elementos posee
  
  1) Calcule la cantidad de elementos de la lista y
- 2) Esta el valor 0 en esta lista?
+ 2) Está el valor 0 en esta lista?
  3) Imprima la posicion del valor mas cercano a 100 que haya en la lista
  
  ------------------------------------
@@ -32,7 +41,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Defina una lista con 10 elementos (sin ceros)
  
  Guarde en la variable "prod_list" el producto de todos los elementos
- de la lista
+ de la lista e imprimalo en consola
  
  ------------------------------------
  Ejercicio 4:
@@ -85,7 +94,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  1, 2, 3, 5, 8, 13, 21, 34, 55, 89 ...
  
- Guardar en una lista los primeros 100 numeros de la lista, y sumar aquellos que esten en
+ Guardar en una lista los primeros 100 numeros de Fibbonacci, y sumar aquellos que esten en
  posiciones pares.
  
  ------------------------------------------
@@ -98,7 +107,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  valor = input("Ingrese un string: ")
  
  Entonces Python guardara lo que el usuario escriba, en una variable llamada "valor"
- Cree una lista donde se almacenen todos los caracteres usados, en orden alfabetico, 
+ Cree e imprima una lista donde se almacenen todos los caracteres usados, en orden alfabetico, 
  sin repeticion. 
  
  Ejemplo: Si el usuario ingresa "curso de python en piensa", el resultado debe ser
@@ -116,4 +125,11 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Pero si la lista fuese  [1, 2, 3, 4, 3, 4] debe imprimir False.
  
  ------------------------------------------------
+ 
+ Ejercicio 12
+ 
+ Imprima la suma de todos los numeros primos menores a 1000.
+ Un numero es un numero primo posee solo dos divisores.
+ 4 no es primo, pues 1, 2 y 4 lo dividen, es decir, posee 3 divisores.
+ 
  '''
