@@ -5,13 +5,13 @@ print("Quiero mostrar esto al usuario")
 
 #Por ejemplo, strings. Tambien se pueden mostrar variables:
 
-x = 7
+#x = 7
 
-print(x)
+#print(x)
 
 #Y se pueden combinar ambos metodos
 
-print("El valor de la variable es: ", x)
+#print("El valor de la variable es: ", x)
 
 #------------------------------------
 
@@ -20,7 +20,7 @@ Pasemos a las listas o vectores. Como vimos son cajas con valores
 adentro. Estos valores pueden ser variables de cualquier tipo
 '''
 
-ejemplo = [4, 6, "Java", False, [4, 9], x ]
+#ejemplo = [4, 6, "Java", False, [4, 9], x ]
 
 '''
 Es hora de que aprendamos a preguntar a Python que hay en la caja
@@ -45,7 +45,7 @@ de la lista, y luego, en corchetes, el valor que se pregunta.
 
 '''
 
-print(ejemplo[3])
+#print(ejemplo[3])
 
 #Que valor va a mostrar la linea de codigo anterior?
 
@@ -54,7 +54,7 @@ Supongamos que nos olvidamos de agregar un valor a la caja.
 Podemos agregarlo usando el atributo "append" asi:
 '''
 
-ejemplo.append("IDLE")
+#ejemplo.append("IDLE")
 
 '''
  Lo que esta dentro del parentesis se va a agregar dentro
@@ -64,7 +64,7 @@ ejemplo.append("IDLE")
  calcula la cantidad de elementos de una lista
 '''
 
-print(len(ejemplo))
+#print(len(ejemplo))
 
 #Que valor va a mostrar al usuario la linea de codigo anterior?
 
