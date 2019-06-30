@@ -45,7 +45,7 @@ tengo_hambre = False
 
 #-----------------------------------------
 
-# El ultimo tipo de dato es la lista. Es como una caja de variables, delimitada
+# El ultimo tipo de dato que veremos es la lista. Es como una caja de variables, delimitada
 # por corchetes y separados por comas
 
 mi_lista = [1, 5, True, "Python 3.7", tengo_hambre]
