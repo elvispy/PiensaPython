@@ -1,6 +1,6 @@
 # En este script vamos a trabajar con los tipos de datos mas usuales en Python
 
-# El primer tipo es el numerico:
+# El primer tipo es el entero(numerico):
 
 x = 7
 
@@ -24,7 +24,19 @@ x = x-a
 
 #-----------------------------------------
 
-# El segundo tipo es el string
+#El segundo tipo es el float. Es cualquier numero que es procedida por un
+#punto, que es el separador decimal de python
+
+var = 2.1
+pi = 3.14159
+
+#el tipo float existe porque a veces necesitamos precision al guardar datos,
+#siendo qu eel tipo entero ocupa menos memoria. Mas adelante veremos
+#una sutileza del tipo float a tener en cuenta
+
+#-----------------------------------------
+
+# El tercer tipo es el string
 
 y = "Esta es una linea de texto"
 
@@ -33,7 +45,7 @@ y = "Esta es una linea de texto"
 
 #-----------------------------------------
 
-# El tercer tipo de dato es el boolean
+# El cuarto tipo de dato es el boolean
 
 z = True
 
@@ -45,8 +57,8 @@ tengo_hambre = False
 
 #-----------------------------------------
 
-# El ultimo tipo de dato que veremos es la lista. Es como una caja de variables, delimitada
-# por corchetes y separados por comas
+# El ultimo tipo de dato que veremos es la lista. Es como una caja de variables,
+# delimitada por corchetes y separados por comas
 
 mi_lista = [1, 5, True, "Python 3.7", tengo_hambre]
 
