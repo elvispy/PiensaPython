@@ -273,7 +273,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  compuesta por enteros positivos). Entonces la lista ejemplo de arriba dice que tienes 8 sandias de pesos 4 kilos, 3 kilos, 2 kilos, etc etc
  Al mediodia vienen dos magnates de negocios queriendote comprar todas tus sandias. Estos magnates son muy competitivos entre ellos, 
  y no te compraran ninguna sandia si el otro magnate se lleva mas kilos de sandia que el. Tu como buen programador decides crear un 
- que imprima si es posible vender todas tus sandias, de modo que los dos magnates esten felices.
+ script que imprima si es posible vender todas tus sandias, de modo que los dos magnates esten felices.
  En el ejemplo de arriba, si le vendemos las sandias de 4 y 9 kilos al primer magnate, y las sandias de 3, 2, 5, 2 y 1 kilo al segundo
  entonces los dos magnates se llevaran 13 kilos de Sandia cada uno. Por lo tanto el programa debe imprimir "Con la lista inicial de sandias,
  es posible distribuir equitativamente los pesos". En caso de no poder hacerlo, el programa debe imprimir "Con la lista inicial de Sandias,
