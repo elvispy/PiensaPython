@@ -217,7 +217,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Imprima un mensaje al usuario informandole si su contraseña es lo suficientemente segura o no.
  La contraseña debe cumplir con los siguientes requisitos:
  1)Debe contener al menos 10 caracteres
- 2)Debe contener al menos un umero
+ 2)Debe contener al menos un numero
  3)Debe contener al menos una letra mayuscula y una minuscula
  
  Imprima el resultado del test. Es la contraseña segura o no?
@@ -256,7 +256,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  d) ...-- significara "¿"
  e) ....-  significara ","
  f) ..... significara "."
- g) Si la letra es mayuscula, el codigo de la letra empieza con una "m"
+ 4) Si la letra es mayuscula, el codigo de la letra empieza con una "m"
  
  Nuestros historiadores saben que el codigo anterior, cuando pasemoa a string, sera un poema de un autor
  Paraguayo. Tu tarea es descifrar quien es el autor, cuyo nombre se encuentra dentro del poema.
