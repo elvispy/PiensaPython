@@ -211,7 +211,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  ----------------------------------------------------
  
- Ejercicio 16
+ Ejercicio 17
  
  Haga que el usuario ingrese una cadena de string
  
@@ -227,7 +227,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  ---------------------------------------------------
  
- Ejercicio 17:
+ Ejercicio 18:
  
  En este ejercicio debemos trabajar con numeros binarios. Escriba la siguiente linea de codigo:
  
@@ -239,7 +239,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  ------------------------------------------------------
  
- Ejercicio 18:
+ Ejercicio 19:
  
  Ahora vamos a trabajar con codigo Morse. (Vea https://es.wikipedia.org/wiki/C%C3%B3digo_morse para saber mas). 
  Somos historiadores de la segunda guerra mundial, y vemos el siguiente mensaje codificado (copielo en la primera
@@ -266,7 +266,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  -------------------------------------------------------
  
- Ejercicio 19
+ Ejercicio 20:
  
  Ahora somos vendedores de Sandias. Tenemos sandias de diferentes kilos, expresados en la siguiente lista
  
@@ -283,6 +283,93 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  es imposible distribuir equitativamente los pesos". 
  
  -----------------------------------------------------------
- 
- 
+
+ Ejercicio 21:
+
+ Debemos escapar de una peligros expedicion! Para este problema, somos
+ Indiana Jones y debemos escapar de una piramide. Nosotros nos encontramos
+ en el piso mas alto de la piramide, y debemos ir bajando de piso, hasta llegar
+ al suelo. En cualquier cuarto del suelo hay una puerta de salida, asi que
+ solo con llegar al suelo ya estamos a salvo. Sin embargo, en cada cuarto hay
+ un  mercenario que nos pide oro.
+
+ Vea el archivo pyramid.png que acompaña a los otros scripts. Es la piramide en la
+ cual nos entontramos. Y cada numero representa la cantidad de oro que se debe pagar al pasar
+ por ese cuarto. Ademas, dado que estamos en un cuarto, solo podemos pasar a uno de los dos siguientes
+ cuartos: o el que esta un piso abajo y a la derecha, o el que esta un piso abajo y a la izquierda del
+ cuarto donde nos encontramos. Es decir, siempre debemos bajar un piso. Queremos quedarnos con la mayor
+ cantidad de oro posible en nuestra bolsa. Cual es el camino que hara esto posible?
+
+ Devuelva un string que diga el camino a recorrer. I si debe ir a la izquierda y D si debe ir a la derecha
+ Ejemplo: "IIDDIDIIIDDDIDII"
+
+ ----------------------------------------------------------------
+
+ Ejercicio 22:
+
+ Escriba un programa que:
+
+ 1)Pida dos enteros positivos al usuario
+
+ 2)Imprima el maximo comun divisor, el minimo comun multiplo y la descomposicion
+ prima de ambos numeros, en ese orden.
+
+ -----------------------------------------------------------------
+
+ Ejercicio 23:
+
+ Ahora somos un hacker. Tenemos nuestro archienemigo: James Moriarty, a quien queremos robarle todo el dinero
+ de su banco. James Moriarty tiene una contraseña hecha unicamente de numeros cuyo largor no conocemos.
+ Lo que si sabemos es que el banco le pide a James exactamente tres de esos digitos de su contraseña cada vez
+ que realiza la transaccion. Es decir, si la contraseña fuese 5592831, y el banco le pide el primer, segundo y
+ quinto digito, entonces James digita el numero 558. Sabemos que el banco siempre le pide los digitos en orden
+ es decir, si el banco le pide los digitos cuarto, y sexto, entonces ya no le puede pedir mas el quinto (tiene
+ que ser orden ascendente). Hemos estado interceptando las ultimas 50 operacioes que James Moriarty hizo en su
+ banco. Entonces sabemos los numeros que James estuvo mandando como confirmacion para el banco, pero no sabemos
+ el orden que el banco le pidio para que mandase.
+ Es nuestra mision descifrar la contraseña completa de James Moriarty, sabiendo que, entre todas las contraseñas
+ posibles (dados esos 50 datos que tenemos) James tiene la mas corta posible. Para acceder a las ultimas 50
+ transacciones de Moriarty, lea en su script el archivo keylog.txt, que contiene 50 lineas de numeros de tres
+ cifras.
+
+ -------------------------------------------------------------------
+
+ Ejercicio 24:
+
+ El año pasado, Arabia Saudita le concedio la primera ciudadania a un robot en este mundo.
+ El robot, lastimosamente se ha aburrido, y es nuestro deber ayudarlo a pasar el tiempo.
+ Ella nos dice que le gusta mucho el sudoku, pero que es incapaz de resolverlo con la logica
+ humana. Para este ejercicio debemos elaborar un algoritmo que pueda resolver sudokus.
+ Cada fila, columna y cuadrado de 3x3 debe tener exactamente un digito entre 1 y 9
+ (las diagonales no cuentan). 
+ Para este problema, deberemos leer el archivo sudoku.txt. Contiene 50 sudokus separados por lineas, con el siguiente
+ formato:
+
+ 003020600
+ 900305001
+ 001806400
+ 008102900
+ 700000008
+ 006708200
+ 002609500
+ 800203009
+ 005010300
+
+ donde los ceros indican una casilla vacia. Debemos crear otro archivo de texto, soluciones.txt
+ con el mismisimo formato que el archivo sudoku.txt, pero con las soluciones a todos los
+ sudokus, para mostrarselas despues a nuestra amiga robot.
+
+ Para testar, la solucion al sudoku de arriba es:
+
+ 483921657
+ 967345821
+ 251876493
+ 548132976
+ 729564138
+ 136798245
+ 372689514
+ 814253769
+ 695417382
+
+ ---------------------------------------------------------------------------
  '''
