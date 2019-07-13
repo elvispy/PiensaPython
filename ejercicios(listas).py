@@ -68,6 +68,9 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Ejemplo: si las listas fuesen [1, "Hola", False] y [[2,3], 1, True], el programa
  debe retornar True, puesto que el elemento "1" esta en ambas listas
  
+ Pero si las listas fuesen [1, "Hola", False] y [[2,3], "1", True], el programa debe
+ retornar False
+ 
  -----------------------------------------
  Ejercicio 7:
  
