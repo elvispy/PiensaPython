@@ -293,7 +293,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  solo con llegar al suelo ya estamos a salvo. Sin embargo, en cada cuarto hay
  un  mercenario que nos pide oro.
 
- Vea el archivo pyramid.png que acompaña a los otros scripts. Es la piramide en la
+ Vea el archivo pyramid.png que acompaña a los otros scripts en el material de apoyo. Es la piramide en la
  cual nos entontramos. Y cada numero representa la cantidad de oro que se debe pagar al pasar
  por ese cuarto. Ademas, dado que estamos en un cuarto, solo podemos pasar a uno de los dos siguientes
  cuartos: o el que esta un piso abajo y a la derecha, o el que esta un piso abajo y a la izquierda del
@@ -330,7 +330,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Es nuestra mision descifrar la contraseña completa de James Moriarty, sabiendo que, entre todas las contraseñas
  posibles (dados esos 50 datos que tenemos) James tiene la mas corta posible. Para acceder a las ultimas 50
  transacciones de Moriarty, lea en su script el archivo keylog.txt, que contiene 50 lineas de numeros de tres
- cifras.
+ cifras. (Vea en material de apoyo)
 
  -------------------------------------------------------------------
 
@@ -342,7 +342,8 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  humana. Para este ejercicio debemos elaborar un algoritmo que pueda resolver sudokus.
  Cada fila, columna y cuadrado de 3x3 debe tener exactamente un digito entre 1 y 9
  (las diagonales no cuentan). 
- Para este problema, deberemos leer el archivo sudoku.txt. Contiene 50 sudokus separados por lineas, con el siguiente
+ Para este problema, deberemos leer el archivo sudoku.txt que se encuentra en el material de
+apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  formato:
 
  003020600
