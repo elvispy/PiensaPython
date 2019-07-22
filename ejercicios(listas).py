@@ -175,7 +175,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
     ----------
     O | O | X
     
- Como podemos ver, cada string representa una fila, y y el puntito "." representa que el lugar esta vacio.
+ Como podemos ver, cada string representa una fila, y el puntito "." representa que el lugar esta vacio.
  
  Dada la lista inicial, nuestro programa debe imprimir si hay un ganador, o si la lista representa un tablero en el cual hay un 
  empate. En el ejemplo anterior, debemos imprimir "El jugador de las X's ha ganado!".
@@ -192,7 +192,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  
  Ejercicio 16
  
- Ana y Billie estan jugando un juego en equipo. Ana escoge un numero inicial entre 1 y mil, que sea entero (no posee comas)
+ Ana y Billie estan jugando un juego en equipo. Ana escoge un numero inicial entre 1 y 1000, que sea entero (no posee comas)
  y lo escribe en la pizarra.
  Billie entonces empieza a escribir una lista de numeros. Si el ultimo numero escrito es multiplo de 2, entonces 
  escribiran ese ultimo numero, dividido 2. Si por el contrario el ultimo numero escrito es impar, entonces escribiran
@@ -261,7 +261,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  f) ..... significara "."
  4) Si la letra es mayuscula, el codigo de la letra empieza con una "m"
  
- Nuestros historiadores saben que el codigo anterior, cuando pasemoa a string, sera un poema de un autor
+ Nuestros historiadores saben que el codigo anterior, cuando pasemos a string, sera un poema de un autor
  Paraguayo. Tu tarea es descifrar quien es el autor, cuyo nombre se encuentra dentro del poema.
  
  -------------------------------------------------------
@@ -319,7 +319,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Ejercicio 23:
 
  Ahora somos un hacker. Tenemos nuestro archienemigo: James Moriarty, a quien queremos robarle todo el dinero
- de su banco. James Moriarty tiene una contraseña hecha unicamente de numeros cuyo largor no conocemos.
+ de su banco. James Moriarty tiene una contraseña hecha unicamente de digitos cuyo largor no conocemos.
  Lo que si sabemos es que el banco le pide a James exactamente tres de esos digitos de su contraseña cada vez
  que realiza la transaccion. Es decir, si la contraseña fuese 5592831, y el banco le pide el primer, segundo y
  quinto digito, entonces James digita el numero 558. Sabemos que el banco siempre le pide los digitos en orden
