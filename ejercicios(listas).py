@@ -254,10 +254,10 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  2) Caracteres diferentes estan separadas por un espacio
  3) Hemos agregado unos caracteres al codigo morse:
  a) ----- significara "\n"
- b) .----- significara "!"
+ b) .---- significara "!"
  c) ..--- significara "?"
  d) ...-- significara "¿"
- e) ....-  significara ","
+ e) ....- significara ","
  f) ..... significara "."
  4) Si la letra es mayuscula, el codigo de la letra empieza con una "m"
  
