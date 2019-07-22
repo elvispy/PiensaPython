@@ -254,10 +254,10 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  2) Caracteres diferentes estan separadas por un espacio
  3) Hemos agregado unos caracteres al codigo morse:
  a) ----- significara "\n"
- b) .----- significara "!"
+ b) .---- significara "!"
  c) ..--- significara "?"
  d) ...-- significara "¿"
- e) ....-  significara ","
+ e) ....- significara ","
  f) ..... significara "."
  4) Si la letra es mayuscula, el codigo de la letra empieza con una "m"
  
@@ -373,4 +373,50 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  695417382
 
  ---------------------------------------------------------------------------
+ 
+ Ejercicio 25
+ 
+ Es el año 2045, y somos parte de la tripulacion que la humanidad envió a Marte para colonizar otros planetas.
+ Nuestro pasatiempo favorito aqui es jugar al PlayStation 42, la ultima consola que salio al mercado antes de
+ haber dejado la tierra. Nuestro juego favorito es GTA San Andreas, que sabemos que tiene una secuencia de trucos
+ que podemos presionar para desbloquear logros. Nuestro juego posee cuatro teclas, "A", "B", "X", "Y". Asi que
+ los trucos solo pueden ser una secuencia de teclas de esos cuatro tipos. Existe una restriccion mas, que es 
+ que la primera tecla no se puede repetir en la secuencia. Por ejemplo, "ABXXXY" y "BXYXAX" son trucos posibles
+ pero "AXBXYYXA" no, pues la letra "A" se repite. 
+ Nuestro objetivo es descubrir el truco que San Andreas tiene para nosotros. Para eso, nosotros podemos ir tecleando
+ secuencias de letras de largor como maximo 4N al juego, donde N es el largor del truco (que nosotros sabemos, es un dato)
+ Por ejemplo, si el truco es "ABXXXY", podemos teclear cualquier secuencia de largor como maximo 24. El juego nos 
+ premiara con una cantidad de monedas, dependiendo de que tan parecida es la palabta que tecleamos con el verdadero truco
+ El sistema de premiacion es el siguiente:
+ -Te dara cero monedas si es que tu palabra no contiene la primera letra del truco original.
+ -Luego, va a calcular la subpalabra mas larga que esta dentro de tu palabra y que contenga la primera letra 
+ del truco. Por ejemplo si el truco es "ABXYY", y nosotros tecleamos:
+ 
+ Palabra           |   Monedas recibidas
+ "XXYYABYABXAY"    |     3
+ "ABXYY"           |     5
+ "ABXYYABXYY"      |     5
+ ""                |     0
+ "X"               |     0
+ "BXYY"            |     0
+ "YYXBA"           |     1
+ "AY"              |     1
+ 
+ Nosotros realmente no tenemos tiempo para ir tecleando todas las posibilidades, pero deberemos usar nuestras habilidades
+ de programacion para hacer un script que adivine cual es el truco por nostros. Entonces, el programa debera hacer lo
+ siguiente:
+ 
+ -Dejar que el usuario ingrese un numero N, entre 1 y 200, que representara el largor del truco.
+ -Luego, debemos crear un truco de largor N, con la restriccion mencionada anteriormente.
+ Este truco debe ser aleatorio, es decir, nosotros no debemos tener influencia alguna en como 
+ se crea. (Investiga como hacer cosas aleatorias!)
+ -Luego debemos hacer que nuestro script genere palabras para testear, y debemos agregar
+ la cantidad de monedas que GTA nos da por esa palabra.
+ -Finalmente, cuando tengamos informacion suficiente, deberemos imprimir con toda seguridad
+ cual es el truco que GTA tiene escondido.
+ 
+ Sin embargo, hay un problema. Como estamos en Marte, los ordenadores estan generalmente ocupados 
+ recabando informacion, por lo que nuestro Python tiene limitaciones. Tecleamos mas de 8000 intentos
+ de adivinar el truco, nuestro ordenador priorizara Python por sobre otras tareas importantes para
+ sobrevivir en Marte, y por lo tanto moriremos. Es nuestro deber adivinar el truco en menos de 8000 intentos.
  '''
