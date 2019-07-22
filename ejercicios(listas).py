@@ -408,6 +408,8 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  
  -Dejar que el usuario ingrese un numero N, entre 1 y 200, que representara el largor del truco.
  -Luego, debemos crear un truco de largor N, con la restriccion mencionada anteriormente.
+ Este truco debe ser aleatorio, es decir, nosotros no debemos tener influencia alguna en como 
+ se crea. (Investiga como hacer cosas aleatorias!)
  -Luego debemos hacer que nuestro script genere palabras para testear, y debemos agregar
  la cantidad de monedas que GTA nos da por esa palabra.
  -Finalmente, cuando tengamos informacion suficiente, deberemos imprimir con toda seguridad
