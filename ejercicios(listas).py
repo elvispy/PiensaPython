@@ -389,7 +389,7 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  premiara con una cantidad de monedas, dependiendo de que tan parecida es la palabta que tecleamos con el verdadero truco
  El sistema de premiacion es el siguiente:
  -Te dara cero monedas si es que tu palabra no contiene la primera letra del truco original.
- -Luego, va a calcular la subpalabra mas larga que esta dentro de tu palabra y que contenga la primera letra 
+ -Luego, va a calcular la subpalabra mas larga que esta dentro de tu palabra y del truco y que contenga la primera letra 
  del truco. Por ejemplo si el truco es "ABXYY", y nosotros tecleamos:
  
  Palabra           |   Monedas recibidas
@@ -403,7 +403,7 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  "AY"              |     1
  
  Nosotros realmente no tenemos tiempo para ir tecleando todas las posibilidades, pero deberemos usar nuestras habilidades
- de programacion para hacer un script que adivine cual es el truco por nostros. Entonces, el programa debera hacer lo
+ de programacion para hacer un script que adivine cual es el truco por nosotros. Entonces, el programa debera hacer lo
  siguiente:
  
  -Dejar que el usuario ingrese un numero N, entre 1 y 200, que representara el largor del truco.
@@ -411,12 +411,13 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  Este truco debe ser aleatorio, es decir, nosotros no debemos tener influencia alguna en como 
  se crea. (Investiga como hacer cosas aleatorias!)
  -Luego debemos hacer que nuestro script genere palabras para testear, y debemos agregar
- la cantidad de monedas que GTA nos da por esa palabra.
- -Finalmente, cuando tengamos informacion suficiente, deberemos imprimir con toda seguridad
+ la cantidad de monedas que GTA nos da por esa palabra. A cada palabra que testeamos,
+ se debe sumar un intento al registro.
+ -Finalmente, deberemos imprimir con toda seguridad
  cual es el truco que GTA tiene escondido.
  
  Sin embargo, hay un problema. Como estamos en Marte, los ordenadores estan generalmente ocupados 
- recabando informacion, por lo que nuestro Python tiene limitaciones. Tecleamos mas de 8000 intentos
+ recabando informacion, por lo que nuestro Python tiene limitaciones. Si tecleamos mas de 8000 intentos
  de adivinar el truco, nuestro ordenador priorizara Python por sobre otras tareas importantes para
  sobrevivir en Marte, y por lo tanto moriremos. Es nuestro deber adivinar el truco en menos de 8000 intentos.
  '''
