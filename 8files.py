@@ -7,7 +7,9 @@ Una tentativa puede ser crear la lista y usar el metodo .append
 a = [14, 17, 22] #hacer append en el shell
 
 '''
-Pero eso por si solo no funciona. Para eso, podemos abrir archivos externos
+Pero eso por si solo no funciona. Cada vez que recibamos datos nuevos
+deberemos entrar en el script e ingresarlos manualmente. 
+Para solucionar eso, podemos abrir archivos externos y escribir en ellos.
 
 
 with open('nombre_archivo', 'ar(+)w') as variable:
@@ -33,3 +35,9 @@ r = Solo para leer.
 r+ = Puede leer y sobreescribir, sin borrar lo que ya habia
 a = va a escribir todo al final, sin borrar lo que habia. Si no hay archivo, lo crea
 w = Va a sobreescribir todo lo que se agregue. Si no existe el archivo, se crea
+
+'''
+
+with open('data.txt', 'a') as archivo:
+    string = 'Esto es lo que quiero agregar \n\n Python'
+    archivo.write(string)
