@@ -420,4 +420,26 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  recabando informacion, por lo que nuestro Python tiene limitaciones. Si tecleamos mas de 8000 intentos
  de adivinar el truco, nuestro ordenador priorizara Python por sobre otras tareas importantes para
  sobrevivir en Marte, y por lo tanto moriremos. Es nuestro deber adivinar el truco en menos de 8000 intentos.
+ 
+ ----------------------------------------------------------------------------
+ 
+ Ejercicio 26
+ 
+ Deberemos crear un programa que imprima un booleano. El script debe tener una variable x con un laberinto cuadrado. 
+ Este laberinto debe ser una lista de listas, donde un 1 significa que hay una pared y 0 significa que se puede caminar.
+ Por ejemplo, x puede ser
+ 
+ x = [
+ [0, 0, 1, 0, 1],
+ [0, 1, 1, 0, 0],
+ [0, 1, 0, 1, 0],
+ [0, 0, 0, 0, 1],
+ [1, 1, 1, 0, 0]
+ ]
+ 
+ Nosotros empezamos en la esquina superior izquierda y debemos terminar en la esquina inferior derecha, por lo tanto, 
+ esos valores deben ser cero. En este caso, debemos imprimir TRUE.
+ 
+ Proximamente voy a subir un archivo laberintos.txt con laberintos de prueba.
+ 
  '''
