@@ -425,7 +425,8 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  
  Ejercicio 26
  
- Deberemos crear un programa que imprima un booleano. El script debe tener una variable x con un laberinto cuadrado. 
+ Deberemos crear un programa que imprima un booleano. Nuestro programa debe poder determinar si es posible salir del 
+ laberinto que recibiremos. El script debe tener una variable x con un laberinto cuadrado. 
  Este laberinto debe ser una lista de listas, donde un 1 significa que hay una pared y 0 significa que se puede caminar.
  Por ejemplo, x puede ser
  
@@ -438,8 +439,31 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  ]
  
  Nosotros empezamos en la esquina superior izquierda y debemos terminar en la esquina inferior derecha, por lo tanto, 
- esos valores deben ser cero. En este caso, debemos imprimir TRUE.
+ esos valores deben ser cero. En este caso, debemos imprimir TRUE, debido a que se puede seguir el siguiente camino
+ hasta la salida
+ 
+ [X, 0, 1, 0, 1],
+ [X, 1, 1, 0, 0],
+ [X, 1, 0, 1, 0],
+ [X, X, X, X, 1],
+ [1, 1, 1, X, X]
  
  Proximamente voy a subir un archivo laberintos.txt con laberintos de prueba.
  
+ Ejercicio 27
+ 
+ En este ejercicio somos profesores de musica. Primero, veamos que leemos partituras como si fuesen cadenas de caracteres, 
+ en donde cada nota representa una letra
+ Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B
+ Por ejemplo el string "ABBADC" es una partitura que se lee como "La Si Si La Re Do". Le dimos una tarea a nuestros alumnos,
+ y esa es de escribir una partitura (un string de caracteres validos). Para corregirla, solo existe una regla: No deben haber
+ dos notas iguales consecutivas. De ser ese el caso, tachamos esas dos y las eliminamos de la partitura. Imprimir la partitura
+ final, o si el string no es valido
+ 
+ Ejemplos 
+ "abcde"        --> "abcde"
+ "aabaa"        --> "b"
+ "abba"         --> ""
+ "baaabbacddc"  --> "b"
+ "h"            --> False (no valido)
  '''
