@@ -24,14 +24,14 @@ x = x-a
 
 #-----------------------------------------
 
-#El segundo tipo es el float. Es cualquier numero que es procedida por un
+#El segundo tipo es el float. Es cualquier numero que es procedido por un
 #punto, que es el separador decimal de python
 
 var = 2.1
 pi = 3.14159
 
 #el tipo float existe porque a veces necesitamos precision al guardar datos,
-#siendo qu eel tipo entero ocupa menos memoria. Mas adelante veremos
+#siendo qu el tipo entero ocupa menos memoria. Mas adelante veremos
 #una sutileza del tipo float a tener en cuenta
 
 #-----------------------------------------
