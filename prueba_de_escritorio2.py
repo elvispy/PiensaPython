@@ -103,8 +103,8 @@ class Manager3(Employee):
 emp_1 = Employee("Elvis", "Aguero", 1000)
 emp_2= Employee("Test", "Employee", 500)
 
-Dev_1 = Developer('Sissi','Vera',3000,'Visual Basic')
-Dev_2 = Developer("Ana","Rizitos",2500,"Cmamo")
+Dev_1 = Developer('Random','1',3000,'Visual Basic')
+Dev_2 = Developer("Random","Rizitos",2500,"Cmamo")
 
 Man_1=Manager3("Mom", "An", 10000,[emp_2, Dev_1])
 
