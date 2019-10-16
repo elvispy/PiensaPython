@@ -286,7 +286,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
 
  Ejercicio 21:
 
- Debemos escapar de una peligros expedicion! Para este problema, somos
+ Debemos escapar de una peligrosa expedicion! Para este problema, somos
  Indiana Jones y debemos escapar de una piramide. Nosotros nos encontramos
  en el piso mas alto de la piramide, y debemos ir bajando de piso, hasta llegar
  al suelo. En cualquier cuarto del suelo hay una puerta de salida, asi que
@@ -468,8 +468,25 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  "h"            --> False (no valido)
  
  Ejercicio 28
+
+ En la primera linea del codigo deberemos definir una lista de enteros, por ejemplo
+ x = [2, 0, 4, -5, 8]
+ Nuestro programa debe imprimir True o False, dependiendo si existe una progresion aritmetica de largor 3 dentro de la lista
+ Por ejemplo, en este caso debe imprimir True, puesto que 0, 2, 4 forma una progresion aritmetica. Si x fuese [1, 3, 7, 15, 31],
+ entonces debe imprimir False.
+
+ Ejercicio 29
  
  Observe la secuencia 1487, 4817, 8147. Es una secuencia de tres terminos bastante especial, puesto que los tres numeros son primos y cada uno 
- se puede obtener como la permutacion de los digitos de los otros numeros de la secuencia. Solo existe otra secuencia de tres terminos
- con estas dos propiedades entre los numeros 1000 y 10000. Encuentre la secuencia
+ se puede obtener como la permutacion de los digitos de los otros numeros de la secuencia, ademas estan en progresion aritmetica.
+ Solo existe otra secuencia de tres terminos con estas tres propiedades entre los numeros 1000 y 10000. Encuentre la secuencia
+
+ Ejercicio 30
+
+ Tengo un conjunto de cuatro numeros primos, con una propiedad muy interesante.
+ Si yo tomo cualesquiera dos primos p y q de este conjunto, al concatenar estos
+ dos primos en cualquier orden, el resultado es aun primo (es decir, int(str(p)+str(q))
+ e int(str(q) + str(p)) son primos). Halle el menor valor posible que puede tener
+ la suma de estos cuatro numeros primos.
+
  '''
