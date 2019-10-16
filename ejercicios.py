@@ -466,4 +466,10 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  "abba"         --> ""
  "baaabbacddc"  --> "b"
  "h"            --> False (no valido)
+ 
+ Ejercicio 28
+ 
+ Observe la secuencia 1487, 4817, 8147. Es una secuencia de tres terminos bastante especial, puesto que los tres numeros son primos y cada uno 
+ se puede obtener como la permutacion de los digitos de los otros numeros de la secuencia. Solo existe otra secuencia de tres terminos
+ con estas dos propiedades entre los numeros 1000 y 10000. Encuentre la secuencia
  '''
