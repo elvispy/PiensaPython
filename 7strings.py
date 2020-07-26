@@ -2,13 +2,13 @@
 que un string puede ser visto como una lista de caracteres, en el sentido que tienen
 indexado
 '''
-
+'''
 b = 'Esto es una oracion'
 print(b[2])
 
-#for x in b:
-#    print(x)
-
+for x in b:
+    print(x, end = "_")
+'''
 '''
 Tambien tienen otros metodos parecidos a las listas. Como hay muchos, lo mejor
 que se puede hacer es ver la documentacion. Mostraremos los mas utiles
@@ -25,9 +25,9 @@ string.split(char) \\ crea una lista donde el separador es el string char
 
 string = 'Veamos como nos va con este string.'
 
-#string.count('n')
-#string.index(' ')
-#string.upper()
-#string.lower()
-#string.replace("e", "E")
-#string.split(" ")
+print(string.count('n'))
+print(string.index(' '))
+print(string.upper())
+print(string.lower())
+print(string.replace("e", "E"))
+print(string.split("e"))

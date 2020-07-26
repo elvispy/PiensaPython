@@ -18,7 +18,7 @@ Entonces va a guardar un string con todo el texto en el. Un enter se
 guarda como '\n'.
 '''
 
-with open('data.txt', 'r') as datos:
+with open('data.txt', 'r+') as datos:
     texto = datos.read()
 print(texto)
 
@@ -38,6 +38,9 @@ w = Va a sobreescribir todo lo que se agregue. Si no existe el archivo, se crea
 
 '''
 
-with open('data.txt', 'a') as archivo:
-    string = 'Esto es lo que quiero agregar \n\n Python'
-    archivo.write(string)
+with open('data2.txt', 'r+') as archivo:
+    string = 'Schliiter'
+    texto = archivo.read()
+    archivo.seek(0)
+    texto = texto[:5] + string + texto[5:]
+    archivo.write(texto)
