@@ -16,7 +16,7 @@ que se puede hacer es ver la documentacion. Mostraremos los mas utiles
 string.count(char) \\ va a contar la cantidad de veces que char aparece en string
 string.index(char) \\ Devuelve la posicion de char en string. Retorna error si
 char no se encuentra en string.
-string.upper() \\ conierte el string en mayusculas
+string.upper() \\ convierte el string en mayusculas
 string.lower() \\ convierte el string en minusculas
 string.replace(viejo, nuevo) \\ reemplaza los viejos strings por los nuevos
 string.split(char) \\ crea una lista donde el separador es el string char
@@ -25,9 +25,11 @@ string.split(char) \\ crea una lista donde el separador es el string char
 
 string = 'Veamos como nos va con este string.'
 
-print(string.count('n'))
-print(string.index(' '))
-print(string.upper())
-print(string.lower())
-print(string.replace("e", "E"))
-print(string.split("e"))
+
+#string.count('n')
+#string.index(' ')
+#string.upper()
+#string.lower()
+#string.replace("e", "E")
+#string.split(" ")
+

@@ -245,7 +245,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
  Somos historiadores de la segunda guerra mundial, y vemos el siguiente mensaje codificado (copielo en la primera
  linea del script):
 
- poem = 'm.--- m.- m-- m.- m... ----- ----- m.--. .-. .. -. -.-. . ... .-   -.. .   --- .--- --- ...   -. . --. .-. --- ...   -.-. --- -.   ..- -.   ..-. ..- .-.. --. --- .-.   -.. .   .- -.-. . .-. --- ....- ----- --.- ..- .   . -.   -- ..   -.-. .. . .-.. ---   -.-. ..- ... - --- -.. .. .- ...   ..- -. .-   . ... - .-. . .-.. .-.. .-   -.. .   ..-. . ----- -- .   .- --. ..- .- .-. -.. .- .-. .- ...   - .-. . ...   -- . ... . ... ....-   ..- -.   .-.. ..- ... - .-. --- ....-   ..- -.   ... .. --. .-.. ---   . -. - . .-. --- ....- ----- m. - . .-. -. .- -- . -. - . .-----   m. -.   ...- .- -. --- ....-   --.- ..- .   -.-- .-   -. ---   ...- --- .-.. ...- . .-. . ..... ----- ----- m.-. . -.-. ..- . .-. -.. .- ...   .-.. .-   .--. .- .-. - .. -.. .-   -.. . .-..   .--. .- .-.. .. -.. ---   ...- .. .- .--- . .-. --- ----- -.-. --- -.   ... ..-   -- --- .-. .-. .- .-..   -.. .   .- -. .... . .-.. ---   --.- ..- .   .--. .- .-. .-   ... .. . -- .--. .-. .   ..-. ..- . ----- m-- --- .-. .. .-   . .-..   -... .-.. .- -. -.-. ---   -.-. .. .-. .. ---   -.. . .-..   ..- .-.. - .. -- ---   .-.. ..- -.-. . .-. --- ----- -.. .   .- --.- ..- . .-.. .-.. .-   .- --.. ..- .-..   - .- .-. -.. .   --.- ..- .   -. ..- -. -.-. .-   --- .-.. ...- .. -.. .- .-. . ----- ----- m. .-. .-   . .-..   ..- .-.. - .. -- ---   .. -. ... - .- -. - .   -.. .   -. ..- . ... - .-. --- ...   -.. ..- .-.. -.-. . ...   -.. .. .- ... ....- ----- -.. .   -. ..- . ... - .-. --- ...   -.-. .- .-. --- ...   ... ..- .--. .-.. .. -.-. .. --- ... ..... ..... .....   m.- .-.. -... .. -. .- ....-   -. ---   ... .- -... .. .- ... ----- --.- ..- .   ... .. -.   ...- --- .-.. ...- . .-.   .-   ...- . .-. -. --- ...   .--. --- .-.   ... .. . -- .--. .-. .   -.-. . .-. .-. .- .-. .- ... ----- ----- m.- --.- ..- . .-.. .-.. --- ...   --- .--- --- ...   -. . --. .-. --- ...   -.-. --- -.   ..- -.   ..-. ..- .-.. --. --- .-.   -.. .   .- -.-. . .-. --- ....- ----- --.- ..- .   .... .- ...   -.-. .-.. .- ...- .- -.. ---   . -.   . .-..   .- .-.. -- .-   -.. . .-..   .--. .- .-.. .. -.. ---   ...- .. .- .--- . .-. --- ....- ----- --.- ..- .   .--. .- .-. - .. ---   ..- -.   -.. .. .-   .--. .- .-. .-   ...- --- .-.. ...- . .-. ..... ..... .....   .--- .- -- .- ... ..... ----- ----- m-- .- -. ..- . .-..   m--- .-. - .. --..   m--. ..- . .-. .-. . .-. --- ..... '
+ poem = 'm.--- m.- m-- m.- m... ----- ----- m.--. .-. .. -. -.-. . ... .-   -.. .   --- .--- --- ...   -. . --. .-. --- ...   -.-. --- -.   ..- -.   ..-. ..- .-.. --. --- .-.   -.. .   .- -.-. . .-. --- ....- ----- --.- ..- .   . -.   -- ..   -.-. .. . .-.. ---   -.-. ..- ... - --- -.. .. .- ...   ..- -. .-   . ... - .-. . .-.. .-.. .-   -.. .   ..-. . ----- -- .   .- --. ..- .- .-. -.. .- .-. .- ...   - .-. . ...   -- . ... . ... ....-   ..- -.   .-.. ..- ... - .-. --- ....-   ..- -.   ... .. --. .-.. ---   . -. - . .-. --- ....- ----- m. - . .-. -. .- -- . -. - . .----   m. -.   ...- .- -. --- ....-   --.- ..- .   -.-- .-   -. ---   ...- --- .-.. ...- . .-. . ..... ----- ----- m.-. . -.-. ..- . .-. -.. .- ...   .-.. .-   .--. .- .-. - .. -.. .-   -.. . .-..   .--. .- .-.. .. -.. ---   ...- .. .- .--- . .-. --- ----- -.-. --- -.   ... ..-   -- --- .-. .-. .- .-..   -.. .   .- -. .... . .-.. ---   --.- ..- .   .--. .- .-. .-   ... .. . -- .--. .-. .   ..-. ..- . ----- m-- --- .-. .. .-   . .-..   -... .-.. .- -. -.-. ---   -.-. .. .-. .. ---   -.. . .-..   ..- .-.. - .. -- ---   .-.. ..- -.-. . .-. --- ----- -.. .   .- --.- ..- . .-.. .-.. .-   .- --.. ..- .-..   - .- .-. -.. .   --.- ..- .   -. ..- -. -.-. .-   --- .-.. ...- .. -.. .- .-. . ----- ----- m. .-. .-   . .-..   ..- .-.. - .. -- ---   .. -. ... - .- -. - .   -.. .   -. ..- . ... - .-. --- ...   -.. ..- .-.. -.-. . ...   -.. .. .- ... ....- ----- -.. .   -. ..- . ... - .-. --- ...   -.-. .- .-. --- ...   ... ..- .--. .-.. .. -.-. .. --- ... ..... ..... .....   m.- .-.. -... .. -. .- ....-   -. ---   ... .- -... .. .- ... ----- --.- ..- .   ... .. -.   ...- --- .-.. ...- . .-.   .-   ...- . .-. -. --- ...   .--. --- .-.   ... .. . -- .--. .-. .   -.-. . .-. .-. .- .-. .- ... ----- ----- m.- --.- ..- . .-.. .-.. --- ...   --- .--- --- ...   -. . --. .-. --- ...   -.-. --- -.   ..- -.   ..-. ..- .-.. --. --- .-.   -.. .   .- -.-. . .-. --- ....- ----- --.- ..- .   .... .- ...   -.-. .-.. .- ...- .- -.. ---   . -.   . .-..   .- .-.. -- .-   -.. . .-..   .--. .- .-.. .. -.. ---   ...- .. .- .--- . .-. --- ....- ----- --.- ..- .   .--. .- .-. - .. ---   ..- -.   -.. .. .-   .--. .- .-. .-   ...- --- .-.. ...- . .-. ..... ..... .....   .--- .- -- .- ... ..... ----- ----- m-- .- -. ..- . .-..   m--- .-. - .. --..   m--. ..- . .-. .-. . .-. --- ..... '
  
  Nuestro objetivo sera descifrar el anterior mensaje. Para ello nos guiaremos del codigo morse (link arriba)
  Como podemos ver, es un string conformado por "-", "." y espacios. Para descifrarlo, solo tenemos que tener en cuenta
@@ -286,7 +286,7 @@ x = [1, 3, True, [4,3], 6, "String", 6, 4, -1]
 
  Ejercicio 21:
 
- Debemos escapar de una peligros expedicion! Para este problema, somos
+ Debemos escapar de una peligrosa expedicion! Para este problema, somos
  Indiana Jones y debemos escapar de una piramide. Nosotros nos encontramos
  en el piso mas alto de la piramide, y debemos ir bajando de piso, hasta llegar
  al suelo. En cualquier cuarto del suelo hay una puerta de salida, asi que
@@ -425,7 +425,8 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  
  Ejercicio 26
  
- Deberemos crear un programa que imprima un booleano. El script debe tener una variable x con un laberinto cuadrado. 
+ Deberemos crear un programa que imprima un booleano. Nuestro programa debe poder determinar si es posible salir del 
+ laberinto que recibiremos. El script debe tener una variable x con un laberinto cuadrado. 
  Este laberinto debe ser una lista de listas, donde un 1 significa que hay una pared y 0 significa que se puede caminar.
  Por ejemplo, x puede ser
  
@@ -438,8 +439,54 @@ apoyo. Contiene 50 sudokus separados por lineas, con el siguiente
  ]
  
  Nosotros empezamos en la esquina superior izquierda y debemos terminar en la esquina inferior derecha, por lo tanto, 
- esos valores deben ser cero. En este caso, debemos imprimir TRUE.
+ esos valores deben ser cero. En este caso, debemos imprimir TRUE, debido a que se puede seguir el siguiente camino
+ hasta la salida
+ 
+ [X, 0, 1, 0, 1],
+ [X, 1, 1, 0, 0],
+ [X, 1, 0, 1, 0],
+ [X, X, X, X, 1],
+ [1, 1, 1, X, X]
  
  Proximamente voy a subir un archivo laberintos.txt con laberintos de prueba.
  
+ Ejercicio 27
+ 
+ En este ejercicio somos profesores de musica. Primero, veamos que leemos partituras como si fuesen cadenas de caracteres, 
+ en donde cada nota representa una letra
+ Do = C, Re = D, Mi = E, Fa = F, Sol = G, La = A, Si = B
+ Por ejemplo el string "ABBADC" es una partitura que se lee como "La Si Si La Re Do". Le dimos una tarea a nuestros alumnos,
+ y esa es de escribir una partitura (un string de caracteres validos). Para corregirla, solo existe una regla: No deben haber
+ dos notas iguales consecutivas. De ser ese el caso, tachamos esas dos y las eliminamos de la partitura. Imprimir la partitura
+ final, o si el string no es valido
+ 
+ Ejemplos 
+ "abcde"        --> "abcde"
+ "aabaa"        --> "b"
+ "abba"         --> ""
+ "baaabbacddc"  --> "b"
+ "h"            --> False (no valido)
+ 
+ Ejercicio 28
+
+ En la primera linea del codigo deberemos definir una lista de enteros, por ejemplo
+ x = [2, 0, 4, -5, 8]
+ Nuestro programa debe imprimir True o False, dependiendo si existe una progresion aritmetica de largor 3 dentro de la lista
+ Por ejemplo, en este caso debe imprimir True, puesto que 0, 2, 4 forma una progresion aritmetica. Si x fuese [1, 3, 7, 15, 31],
+ entonces debe imprimir False.
+
+ Ejercicio 29
+ 
+ Observe la secuencia 1487, 4817, 8147. Es una secuencia de tres terminos bastante especial, puesto que los tres numeros son primos y cada uno 
+ se puede obtener como la permutacion de los digitos de los otros numeros de la secuencia, ademas estan en progresion aritmetica.
+ Solo existe otra secuencia de tres terminos con estas tres propiedades entre los numeros 1000 y 10000. Encuentre la secuencia
+
+ Ejercicio 30
+
+ Tengo un conjunto de cuatro numeros primos, con una propiedad muy interesante.
+ Si yo tomo cualesquiera dos primos p y q de este conjunto, al concatenar estos
+ dos primos en cualquier orden, el resultado es aun primo (es decir, int(str(p)+str(q))
+ e int(str(q) + str(p)) son primos). Halle el menor valor posible que puede tener
+ la suma de estos cuatro numeros primos.
+
  '''
