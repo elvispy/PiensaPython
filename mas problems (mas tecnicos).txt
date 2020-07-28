@@ -1,0 +1,64 @@
+Ejercicio:
+Prediga el valor de x al final de cada bloque de c\'odigo. Hay un item que tiene un error
+---
+a)
+x = 3
+a = 3 * x - 2
+b = a ** x
+a = b / ( a + x)
+x = a // x
+---
+b)
+a = 3
+b = a // 2
+c = (a + b) % b
+x = -b + c * a
+---
+c)
+a, b = 5, 2
+x = b - a
+d = b ** 2
+x = d + c - 1
+
+Ejercicio: Considere las siguientes variables
+a = [1, 2, 3]
+b = 2
+c = 3
+d = "32"
+e = ["3"]
+f = [2, c]
+g = "3"
+
+Cuantos pares de variables se pueden sumar?
+
+Exercicio: Considere ls siguientes variables
+
+x1 = True or False
+x2 = True and (True or False)
+x3 = not (True and False) or (False and not True)
+
+Que valor dan las siguientes expresiones?
+a) x1 and (not x2)
+b) not x2 or not x3
+
+
+Ejercicio: Guarde todos los enteros positivos del -3 al 4 en una lista. Cual ocupa la tercera posicion?
+
+Ejercicio: Considere la siguiente lista:
+
+x = [2, 3, 5, 7, 11, 13, 17, 23, 27, 29]
+
+Que resultado daran las siguientes expresiones?
+
+-len(x)
+- x[-2] + x[2] * (-2)
+- x + x
+
+Ejercicio:
+Copie las siguientes lineas en el Python IDLE
+from random import randint
+l = [randint(0, randint(100, 1000)) for i in range(randint(100, 1000))]
+
+Halle la suma de todos los valores de la lista
+Halle la media y la mediana de la lista*
+Halle el mayor y el menor elemento numerico de la lista

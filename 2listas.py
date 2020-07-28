@@ -36,7 +36,7 @@ x =  [v1  ,  v2  ,  v3  ,  v4  ,  v5  ,  v6]
       ^      ^      ^      ^      ^      ^
       |      |      |      |      |      |
       |      |      |      |      |      |
-	  x[0]   x[1]   x[2]   x[3]   x[4]   x[5]
+    x[0]   x[1]   x[2]   x[3]   x[4]   x[5]
 	  
 Por razones historicas, las computadoras empiezan a contar desde cero
 la forma de preguntar a Python sobre una variable es poniendo el nombre
