@@ -5,7 +5,7 @@ Aqui estare subiendo ejercicios y ejemplos
 
 Primero, el link a la documentacion de Python en español:
 
-https://docs.python.org/es/3.8/tutorial/index.html
+https://docs.python.org/es/3.8/tutorial/introduction.html
 
 Este es el link de descarga de Python:
 
