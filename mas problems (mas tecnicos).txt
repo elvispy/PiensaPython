@@ -62,3 +62,70 @@ l = [randint(0, randint(100, 1000)) for i in range(randint(100, 1000))]
 Halle la suma de todos los valores de la lista
 Halle la media y la mediana de la lista*
 Halle el mayor y el menor elemento numerico de la lista
+
+ejercicio: prediga el resultado de ([4]+[5])
+
+ejercicio: prediga el resultado ([7]*3)
+
+
+ejercicio: prediga el resultado de las siguientes operaciones
+a) type(1.5)== int
+b) type(1)== int
+c) type(1.0)==int
+d) type('1.0')==float
+
+ejercicio: Escriba un programa que calcule la suma de enteros en la lista 
+
+a=[1,2,3,4,5,7.5,8.2,6,7,'8','9']
+
+
+ejercicio: calcule la suma de la cantidad de vocales 
+
+oracion='Los BizcOHOS no Saben BIEN'
+
+ejercicio:
+
+lista=[1,5,'fasdf',[5], 'Laura','elviscocho', 1.5,'Oso gris']
+
+Dada la lista de arriba, haga un programa que determine
+a) Cantidad de enteros en la lista
+b) cantidad de strings
+c) cantidad de strings que contengan mayusculas
+
+ejercicio:
+lista=['awante python','Pensamiento computacional','IOI', 'SQL','Pancho','INTERNET DE LAS COSAS','dodo','grande hay 1 solo']
+
+Dada la lista de arriba, escriba un programa que calcule:
+a) cantidad de palabras que contengan solo caracteres en minusculas(sin espacios)
+b) cantidad de palabra que contengan minusculas 
+c) cantidad de palabras que contengan solo caracteres en mayusculas(sin espacios)
+d) cantidad de palabras que contengan mayusculas
+e) cantidad de palabras que contengan numeros
+
+ejercicio:
+string='hora arumnoz, ez hagamoz unoz codigoz bien chingonez en python'
+
+en el string de arriba, reemplace las 'z' por 's' y las 'r' por 'l'
+
+ejercicio: [1,5,6,8,5.5,7,7.0]
+
+calcule el promedio de enteros en la lista.
+
+ejercicio: 
+a=[1,2,'hg',7.5,[],[56],[]]
+
+Escriba un programa que calcule la cantidad de elementos de cada tipo en a
+
+ejercicio: dada la siguiente lista
+
+lista= [[1,2,'3'],[1,2,1.5],[5,[]],[1.5,5,'equisde']]
+ escriba un programa que
+a) invierta el orden de los elementos que contengan strings
+b) elimine los elemntos que contangan floats
+
+ejercicio: dada la lista
+a=[212,'IOI','omapa',713254,[4],1.5,'ds',105,'transparencia']
+
+escriba un programa que determine el tipo de elemento que aparece con mas frecuencia
+
+
