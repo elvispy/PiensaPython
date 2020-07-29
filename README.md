@@ -9,7 +9,7 @@ https://docs.python.org/es/3.8/tutorial/introduction.html
 
 Este es el link de descarga de Python:
 
-https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
+https://www.python.org/downloads/
 
 En este link, un curso completo de Python (en ingles):
 
