@@ -11,6 +11,10 @@ Este es el link de descarga de Python:
 
 https://www.python.org/downloads/
 
+En este link, un curso introductorio a Python gratis de una Universidad Española:
+
+https://www.edx.org/es/course/python-aprender-a-programar
+
 En este link, un curso completo de Python (en ingles):
 
 https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU
