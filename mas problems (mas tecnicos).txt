@@ -128,4 +128,22 @@ a=[212,'IOI','omapa',713254,[4],1.5,'ds',105,'transparencia']
 
 escriba un programa que determine el tipo de elemento que aparece con mas frecuencia
 
+Ejercicio: escriba un programa que me diga si un numero dado es par
 
+Ejercicio: Dado dos numeros escriba un programa que indique cual es el mayor y cual el menor, o si son iguales.
+	(restriccion: el comando if debe ser usado solo una vez	)
+
+Ejercicio: Dados dos strings, escriba un programa que me indique cual de ambos tiene la mayor cantidad de caracters
+
+Ejercicio: qué imprimirá el siguiente programa?
+	nota_en_algoritmica=1
+	if nota_en_algoritmica>1:
+	    print('Felices vacaciones')
+	else:
+	    print('F, le vas a ver al oso gris en febrero')
+Ejercicio: qué imprimirá el siguiente programa?
+	if 5==5.0 and type(5)==type(5.0):
+	    print("cantidades y tipos iguales")
+	elif:	
+	    print("cantidades o tipos diferentes")
+	    
